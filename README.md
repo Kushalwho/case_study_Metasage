@@ -34,23 +34,23 @@ Modifications (Text data)
 
 🛠️ Technical Details
 
-      1️. Data Ingestion
-         Stored as CSV (Flat File)
-         Loaded using Pandas
-         Processed using NumPy & Scikit-learn
+   1️. Data Ingestion
+      Stored as CSV (Flat File)
+      Loaded using Pandas
+      Processed using NumPy & Scikit-learn
    
-      2️. Preprocessing
-         Numerical Features: Scaled with StandardScaler
-         Text Features: Processed with TfidfVectorizer (max 202 features)
+   2️. Preprocessing
+      Numerical Features: Scaled with StandardScaler
+      Text Features: Processed with TfidfVectorizer (max 202 features)
    
-      3️. Model Details
-         Linear Regression Model
-         Features Used:
-         Torque, RPM, AFR, Boost
-         TF-IDF Encoded Specs
+   3️. Model Details
+      Linear Regression Model
+      Features Used:
+      Torque, RPM, AFR, Boost
+      TF-IDF Encoded Specs
    
-      4️. Model Deployment
-         Uses Streamlit to provide a simple, interactive interface.
-         Models & vectorizers are loaded from .pkl files.   
+   4️. Model Deployment
+      Uses Streamlit to provide a simple, interactive interface.
+      Models & vectorizers are loaded from .pkl files.   
  
 
