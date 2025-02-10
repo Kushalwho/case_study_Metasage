@@ -1,13 +1,16 @@
 🚀 Project Overview
 
 
-This project analyzes aftermarket car modifications using COBB Dyno Data to predict how changes impact performance. It utilizes:
+This project analyzes aftermarket car modifications using COBB Dyno Data to predict how changes impact performance. 
+It utilizes:
 
 Machine Learning (Linear Regression, TF-IDF, Scikit-learn)
 Data Preprocessing (Scaling, TF-IDF for text-based features)
 Streamlit Web App (User input & predictions)
 
 📂 Dataset
+
+
 The dataset contains dynamometer (dyno) test results and car modification details. Key features:
 
 RPM (Revolutions per Minute)
