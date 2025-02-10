@@ -33,6 +33,7 @@ Modifications (Text data)
    streamlit run app.py
 
 🛠️ Technical Details
+
 1️. Data Ingestion
    Stored as CSV (Flat File)
    Loaded using Pandas
